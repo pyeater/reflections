@@ -1,0 +1,10 @@
+# Lesson 2 - Problem Set 1 (no reflections file)#
+# Lesson 3 - Creating and Modifying a Repository #
+
+Q1.
+What happens when you initialize a repository? Why do you need to do it?
+
+A1.
+It creates a .git file in directory (hidden file > type@$: ls -a to see)
+You need to do it to flag directory as a git repository and add relevant functionality.
+
