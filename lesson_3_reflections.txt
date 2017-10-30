@@ -26,4 +26,55 @@ You can also specify a commit message via the command line by running:
 instead of just git commit. It's still a good idea to get an editor set up, since this will make it easier to write long commit messages that fully describe the change.
 # end of Note
 
+# Note (git diff revisited):
+> git diff <commit1> <commit2> (commit1 is most recent!)
+> git diff (no args - compares working dir and staging area)
+> git diff --staged (compares staging area to most recent commit)
+# end of note
+
+Q3.
+Reflect: Commit Size
+Now that you’ve committed changes using the staging area, go add the following question and your thoughts on it to your lesson_2_reflections file:
+How can you use the staging area to make sure you have one commit per logical change?
+
+A3.
+Only stage changes that constitute a logical change and can be described in the same commit message, before making that commit.
+
+Q4.
+(16) Reflect: When to Use Branches
+Now that you’ve learned how to create a branch in Git, go add the following question and your thoughts on it to your reflections file:
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A4.
+Branches are helpful if you want to work on different versions of the code without affecting the main (master) branch.  Maybe for new features, which may not work or a specific version, with French comments for example.
+
+# Notes:
+git log --graph (shows branches)
+git log --oneline (abbreviated)
+git log --graph --oneline(can be combined)
+bit checkout -b <new branch name> (for detatched head state, unreachable) 
+# end of note
+
+Q5.
+(21) Reflect: Visualizing with Diagrams
+Now that you’ve had some experience creating branches and drawing diagrams of your history, go add the following question and your thoughts on it to your reflections file:
+
+How do the diagrams help you visualize the branch structure?
+
+A5.
+They help you see clearly where branches diverge and then merge with the master branch.
+
+Q6.
+(33) Reflect: Automatic vs. Manual Merging
+Now that you’ve learned when Git will not be able to automatically merge branches, and what happens when it can’t, go add the following question and your thoughts on it to your reflections file:
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A6.
+Pro Auto: saves time
+Con Auto: less control over which details are kept/discarded
+
+
+
 
