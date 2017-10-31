@@ -21,7 +21,10 @@ Q3.
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A3.
+Fork makes a copy (clone) of a remote GitHub repo on your personal GitHub repos page.
+Clone is a copy of a GitHub repo copied to your local machine.
+Branches are local divergent copies of a local repo.  
 
 Q4.
 What is the benefit of having a copy of the last known state of the remote
