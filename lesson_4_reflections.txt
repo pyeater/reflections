@@ -1,2 +1,11 @@
 # Lesson 4 - Using GitHub to Collaborate #
 (https://classroom.udacity.com/courses/ud775/lessons/3105028581/concepts/30552186170923)
+
+Q1.
+Reflect: Using a remote repository
+Use the following reflection prompt:
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+A1.
+Maybe when you want to share your work with others, or to keep a copy remotely to access from different machines.
